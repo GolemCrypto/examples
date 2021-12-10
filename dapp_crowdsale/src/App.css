@@ -1,0 +1,279 @@
+body{
+  background-color: rgb(250, 249, 250);
+}
+.App {
+  text-align: center;
+    
+      color:#3f51b5!important;
+}  
+@font-face {
+  font-family: "Kanit";
+  src: url("./fonts/Kanit/Kanit-Bold.ttf") format('truetype')  ,
+         
+ }
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+ 
+  /*min-height: 100vh;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ 
+p{
+  font-size: 0.5em;
+}
+
+
+
+
+
+
+
+
+
+.btn-grad {background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97  51%, #DD5E89  100%)}
+.btn-grad {
+   margin: 10px;
+   margin-top:20px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+  
+   border-radius: 10px;
+   display: block;
+   display: inline-block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+ .btn-grad-success { background-image: linear-gradient(to right, #3CA55C 0%, #9cb549  51%, #3CA55C  100%);}
+ .btn-grad-success {
+   color:white;
+  
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+
+    display: inline-block;
+  }
+
+  .btn-grad-success:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+
+
+
+.navbar{
+  padding-top:0;
+  padding-bottom:0;
+
+ /* background-image: linear-gradient(to right, #4CB8C4 0%, #3CD3AD  51%, #4CB8C4  100%);*/
+ background-color : #4CB8C4;
+  background-size: 200% auto;
+  color:white;
+
+}
+
+.section{
+  margin-bottom:1em;
+}
+.sr-only{
+  color:white;
+}
+
+.side_menu_link{
+  width:100%;
+  font:initial;
+  display:flex;
+  font:normal;
+  text-decoration: none;
+  color:black;
+}
+
+div .side_menu_chip{
+  font-style: normal;
+  text-decoration: none;
+}
+
+
+div 	.MuiChip-outlinedSecondary{
+  color:#f0ba35;
+  border-color:#f0ba35;
+}
+
+div a, div a:hover{
+  color:inherit;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+
+.mobile_list .MuiButtonBase-root{
+  display:block;
+}
+
+}
+
+div .text-danger{
+  color : #ff7369!important;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+div .MuiButton-containedPrimary{
+  
+  background-image: linear-gradient(to right, #1688d9 0%, #40aadb  51%, #1FA2FF  100%);
+  background-size: 200% auto;
+}
+
+div .MuiButton-containedPrimary:hover {
+  background-image: linear-gradient(to right, #095991 0%, #40aadb  51%, #095991  100%);
+ 
+}
+
+div .bg-success{
+  background-image: linear-gradient(to right, #3e9e5b 0%, #9cb549  51%, #3CA55C  100%);
+  background-size: 200% auto;
+}
+
+div .bg-success:hover{
+  background-image: linear-gradient(to right, #3CA55C 0%, #9cb549  51%, #3CA55C  100%);
+}
+ 
+
+
+
+ div .bg-danger {
+   background-color: #f24c35!important;
+ }
+
+ .badge, .MuiButton-label{
+  font-family: Kanit, sans-serif!important ;
+  font-weight: 700;
+  color:white!important;
+ }
+
+ .MuiButton-contained{
+  box-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset!important;
+  
+ }
+
+ .MuiButton-root{
+   text-transform: none!important;
+   
+ }
+ 
+ span, .MuiAlert-message {
+  font-family: Kanit, sans-serif!important ;
+  font-weight: 550!important;
+   
+ }
+
+  span{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen'
+    , 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif!important;
+  }
+  .MuiTypography-body1{
+    color:#2b377a;
+  }
+ span.label{
+  color:#3f51b5;
+  opacity: 70%;
+  font-size: 75%;
+ }
+
+ .dimmed{
+   opacity:70%;
+ }
+
+ .MuiTypography-h2{
+  font-family: Kanit, sans-serif!important ;
+   font-weight: 600!important;
+ }
+
+ .card, .expandPanel{
+   border:1px solid rgb(231, 227, 235)!important;
+   background-color: rgb(255, 255, 255)!important;
+    border-radius: 24px!important;
+    box-shadow: rgb(25 19 38 / 10%) 0px 2px 12px -8px, rgb(25 19 38 / 5%) 0px 1px 1px!important;
+ 
+    overflow: hidden!important;
+    position: relative!important;
+ }
+
+ .expandButton{
+   border: none!important;
+ }
+
+ .MuiExpansionPanelDetails-root, 
+ .MuiExpansionPanelSummary-content
+ {
+  display:block!important;
+ }
+
+ 
+
+ .MuiTypography-h2{
+  color:#3f51b5;
+ }
+
+  .modal-content {
+  width: 100%!important;
+}
+
+.modal-dialog{
+  margin-top:10em!important;
+  
+}
+
+.modal{
+  z-index: 10000!important;
+}

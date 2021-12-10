@@ -1,0 +1,12 @@
+{
+	"name": "Unrevealed",
+	"description": "Not revealed yet",
+	"image": "https://ipfs.io/ipfs/QmPpCqgU4MkTtASxrK6LeqAcaR4n7HU7si4fhPVeYuRViB/",
+	"attribute": [
+		{
+			"trait_type": "Number",
+			"value": 0,
+			"max_value": 0
+		}
+	]
+}

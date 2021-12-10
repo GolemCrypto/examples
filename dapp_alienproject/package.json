@@ -1,0 +1,31 @@
+{
+  "name": "aliensecretsociety-app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@rollup/plugin-inject": "^4.0.3",
+    "bootstrap": "^5.1.3",
+    "bootstrap-vue-3": "0.0.5",
+    "buffer": "^6.0.3",
+    "ethers": "^5.5.1",
+    "keccak256": "^1.0.3",
+    "merkletreejs": "^0.2.24",
+    "vue": "^3.2.16",
+    "vue-router": "^4.0.12",
+    "vue-card-slide": "^1.1.1",
+    "vue-owl-carousel": "^2.0.3",
+    "vue-router": "^4.0.12",
+    "vue-tantan-stack": "^1.0.0",
+    "vue3-carousel": "^0.1.31",
+    "vueperslides": "^3.3.2"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-commonjs": "^1.0.1",
+    "@vitejs/plugin-vue": "^1.9.3",
+    "vite": "^2.6.4"
+  }
+}

@@ -1,0 +1,23 @@
+When genarating NFTs we want to random mix the array of all NFTs so tokenIds are assigned randomly per rarity.
+
+On mint everything sent to the owner wallet. not stored in the contract.
+
+Pre-minting 500 NFTs:
+- Preminted only at gas cost.
+- Perminted are sequential in tokenIds but random in rarity.
+
+
+Whitelisted Presale: 1000 addresses
+- 0.1 presale price for mint.
+- mint max of 2 NFTs per wallet.
+- supply limit 3000 NFTs
+
+Dutch auction is for ALL.
+- 0.25 stars and goes down every 6h by 0.05.
+- 0.15 floor.
+- 5 NFTs per wallet.
+- Dutch auction only closed when all NFTs are minted.
+
+
+Dutch auction work:
+- 

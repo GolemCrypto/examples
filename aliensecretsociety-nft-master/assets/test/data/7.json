@@ -1,0 +1,12 @@
+{
+	"name": "Number 7",
+	"description": "Desc number 7",
+	"image": "https://ipfs.io/ipfs/QmanrD1bH8LnZPbWeoERAAzFRKpKdanLHZ2XRVbuBYSzQ5/7.png",
+	"attributes": [
+		{
+			"trait_type": "Number",
+			"value": 7,
+			"max_value": 10
+		}
+	]
+}
